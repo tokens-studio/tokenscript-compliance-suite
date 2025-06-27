@@ -1,0 +1,7 @@
+{
+    "name": "addition and subtraction with negative numbers",
+    "input": "4 + -2 + 3 - -1",
+    "expectedOutput": "6",
+    "exceptedOutputType": "Number",
+    "context": {}
+}
