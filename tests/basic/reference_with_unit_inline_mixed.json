@@ -5,6 +5,10 @@
     "expectedOutputType": "NumberWithUnit",
     "inline": true,
     "context": {
-        "x": "6rem"
+        "x": {
+            "value": 2,
+            "unit": "rem",
+            "type": "NumberWithUnit"
+        }
     }
 }
