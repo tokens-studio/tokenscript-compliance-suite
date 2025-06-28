@@ -3,5 +3,6 @@
     "input": "{x}",
     "expectedOutput": "true",
     "expectedOutputType": "Boolean",
+    "inline": true,
     "context": {"x": true}
 }

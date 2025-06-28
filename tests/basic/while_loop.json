@@ -1,0 +1,8 @@
+{
+    "name": "while loop",
+    "input": "variable n: Number = 0;\nwhile(n < 10) [\n   n = n+1;\n]\nreturn n;",
+    "expectedOutput": "10",
+    "expectedOutputType": "Number",
+    "inline": false,
+    "context": {}
+}

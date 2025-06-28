@@ -3,5 +3,6 @@
     "input": "4 + -2 + 3 - -1",
     "expectedOutput": "6",
     "expectedOutputType": "Number",
+    "inline": true,
     "context": {}
 }

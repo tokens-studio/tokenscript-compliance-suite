@@ -3,6 +3,7 @@
     "input": "4+{x}",
     "expectedOutput": "7",
     "expectedOutputType": "Number",
+    "inline": true,
     "context": {
        "x": 3
     }

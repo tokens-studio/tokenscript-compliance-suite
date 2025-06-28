@@ -56,6 +56,8 @@ Expected result here
 
 expectedOutputType: Number # or String, Boolean, etc.
 
+inline: true # Set to true for inline, false for script interpretation
+
 # Context (variables) section - use JSON format
 # Remove the {} and add your context variables if needed, e.g.:
 # {
@@ -71,6 +73,9 @@ context: {}
 
         # Handle the expected output type
         output_type = test_data.get("exceptedOutputType", "") or test_data.get("expectedOutputType", "")
+
+        # Handle the inline field
+        inline_val = test_data.get("inline", True)
 
         # Create template with existing data
         return f"""\
@@ -91,6 +96,8 @@ name: {test_data.get("name", "Test name here")}
 # END_EXPECTED_OUTPUT
 
 expectedOutputType: {output_type} # or String, Boolean, etc.
+
+inline: {str(inline_val).lower()} # Set to true for inline, false for script interpretation
 
 # Context (variables) section - use JSON format
 context: {context_str}
@@ -143,6 +150,9 @@ def parse_editor_content(user_input):
             if key == "expectedOutputType":
                 output_type = value.split("#")[0].strip()  # Remove any comments
                 test_data[key] = output_type
+            elif key == "inline":
+                # Accept true/false as bool
+                test_data[key] = value.split("#")[0].strip().lower() == "true"
             elif key not in test_data and key != "context" and key not in sections:
                 test_data[key] = value
 
@@ -280,7 +290,11 @@ def main():
     """Main function to parse arguments and call appropriate functions."""
     parser = argparse.ArgumentParser(description='Create or edit TokenScript compliance tests')
 
-    # Add subparsers for create and edit modes
+    # Add arguments for the main parser (for default create mode)
+    parser.add_argument('--category', default='math', help='Test category (subdirectory under tests/)')
+    parser.add_argument('--filename', help='Filename for the test (without .json extension)')
+
+    # Add subparsers for explicit create and edit modes
     subparsers = parser.add_subparsers(dest='mode', help='Mode of operation')
 
     # Create parser
@@ -295,13 +309,12 @@ def main():
     # Parse arguments
     args = parser.parse_args()
 
-    # Default to create mode if no mode specified
-    if not args.mode:
-        create_or_edit_test(edit_mode=False)
-    elif args.mode == 'create':
-        create_or_edit_test(edit_mode=False)
-    elif args.mode == 'edit':
+    # Handle the command based on mode
+    if args.mode == 'edit':
         create_or_edit_test(edit_mode=True, test_path=args.path)
+    else:
+        # Both default mode and explicit 'create' mode use these arguments
+        create_or_edit_test(edit_mode=False)
 
 
 if __name__ == '__main__':
