@@ -1,0 +1,10 @@
+{
+    "name": "reference with unit",
+    "input": "{x}rem",
+    "expectedOutput": "2rem",
+    "expectedOutputType": "NumberWithUnit",
+    "inline": true,
+    "context": {
+        "x": 2
+    }
+}

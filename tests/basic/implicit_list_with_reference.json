@@ -1,0 +1,11 @@
+{
+    "name": "implicit list with reference",
+    "input": "{hello} {test} 3px",
+    "expectedOutput": "1 2 3px",
+    "expectedOutputType": "ImplicitList",
+    "inline": true,
+    "context": {
+        "hello": 1,
+        "test": 2
+    }
+}

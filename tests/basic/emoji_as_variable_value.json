@@ -1,0 +1,8 @@
+{
+    "name": "🦄emoji as variable value",
+    "input": "variable tokenscript: String = \"\ud83d\ude0d\";\nreturn tokenscript;",
+    "expectedOutput": "\ud83d\ude0d",
+    "expectedOutputType": "String",
+    "inline": false,
+    "context": {}
+}

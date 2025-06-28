@@ -1,0 +1,8 @@
+{
+    "name": "While simple nested",
+    "input": "variable i: NumberWithUnit = 0px;\n    variable j: Number = 0;\n    while(i < 3) [\n        j = 0;\n        while(j < 2) [\n            j = j + 1;\n        ];\n        i = i + 1;\n    ];\n    return i;",
+    "expectedOutput": "3px",
+    "expectedOutputType": "NumberWithUnit",
+    "inline": false,
+    "context": {}
+}

@@ -1,0 +1,8 @@
+{
+    "name": "pow inline",
+    "input": "pow(2, 3)",
+    "expectedOutput": "8",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

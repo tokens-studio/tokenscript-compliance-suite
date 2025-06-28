@@ -1,0 +1,8 @@
+{
+    "name": "inline min",
+    "input": "max(3,2,1)",
+    "expectedOutput": "3",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

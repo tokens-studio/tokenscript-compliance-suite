@@ -1,0 +1,8 @@
+{
+    "name": "inline sum",
+    "input": "sum(3,2,2,3)",
+    "expectedOutput": "10",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

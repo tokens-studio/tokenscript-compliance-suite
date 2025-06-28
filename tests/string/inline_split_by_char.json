@@ -1,0 +1,8 @@
+{
+    "name": "string inline split by character",
+    "input": "\"HELLO\".split()",
+    "expectedOutput": "H, E, L, L, O",
+    "expectedOutputType": "List",
+    "inline": true,
+    "context": {}
+}

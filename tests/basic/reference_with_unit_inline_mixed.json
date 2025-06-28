@@ -1,0 +1,10 @@
+{
+    "name": "reference with unit inline mixed",
+    "input": "{x} * {x} + {x}",
+    "expectedOutput": "6rem",
+    "expectedOutputType": "NumberWithUnit",
+    "inline": true,
+    "context": {
+        "x": "6rem"
+    }
+}

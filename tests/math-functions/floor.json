@@ -1,0 +1,8 @@
+{
+    "name": "inline floor",
+    "input": "floor(3.1)",
+    "expectedOutput": "3",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

@@ -1,0 +1,8 @@
+{
+    "name": "While condition must be boolean",
+    "input": "variable i: Number = 0;\n    while(5) [\n        i = i + 1;\n    ];\n    return i;",
+    "expectedOutput": "While loop condition must be a boolean.",
+    "expectedOutputType": "Error",
+    "inline": false,
+    "context": {}
+}

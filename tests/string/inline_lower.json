@@ -1,0 +1,8 @@
+{
+    "name": "string inline upper",
+    "input": "\"HELLO\".lower()",
+    "expectedOutput": "hello",
+    "expectedOutputType": "String",
+    "inline": true,
+    "context": {}
+}

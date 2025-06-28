@@ -1,0 +1,10 @@
+{
+    "name": "🦄Emoji as reference value",
+    "input": "{tokenscript}",
+    "expectedOutput": "\ud83c\udf08",
+    "expectedOutputType": "String",
+    "inline": true,
+    "context": {
+        "tokenscript": "\ud83c\udf08"
+    }
+}

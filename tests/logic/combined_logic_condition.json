@@ -1,0 +1,8 @@
+{
+    "name": "combined logic condition",
+    "input": "variable x: Number = 0;\n    variable y: Number = 5;\n    if(x < y && true) [\n        x = 10;\n    ];\n    return x;",
+    "expectedOutput": "10",
+    "expectedOutputType": "Number",
+    "inline": false,
+    "context": {}
+}

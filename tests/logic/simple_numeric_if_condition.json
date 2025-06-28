@@ -1,0 +1,8 @@
+{
+    "name": "Simple numeric if condition",
+    "input": "variable x: Number = 0;\n    if(false) [\n        x = 5;\n    ] else [\n        x = 10;\n    ];\n    return x;",
+    "expectedOutput": "10",
+    "expectedOutputType": "Number",
+    "inline": false,
+    "context": {}
+}

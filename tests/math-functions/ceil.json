@@ -1,0 +1,8 @@
+{
+    "name": "inline ceil",
+    "input": "ceil(3.1)",
+    "expectedOutput": "4",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

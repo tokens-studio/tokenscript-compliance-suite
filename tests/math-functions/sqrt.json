@@ -1,0 +1,8 @@
+{
+    "name": "sqrt inline",
+    "input": "sqrt(9)",
+    "expectedOutput": "3",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

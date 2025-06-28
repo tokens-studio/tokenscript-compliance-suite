@@ -1,0 +1,8 @@
+{
+    "name": "round down on .5",
+    "input": "round(2.5)",
+    "expectedOutput": "2",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

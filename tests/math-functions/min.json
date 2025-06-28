@@ -1,0 +1,8 @@
+{
+    "name": "inline min",
+    "input": "min(3,2,1)",
+    "expectedOutput": "1",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

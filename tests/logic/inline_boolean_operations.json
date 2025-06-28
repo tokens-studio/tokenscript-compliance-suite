@@ -1,0 +1,11 @@
+{
+    "name": "Inline boolean operations",
+    "input": "variable not_result: boolean = a != b && !b;\nreturn not_result;",
+    "expectedOutput": "true",
+    "expectedOutputType": "Boolean",
+    "inline": false,
+    "context": {
+        "a": true,
+        "b": false
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "inline modulo",
+    "input": "mod(3,2)",
+    "expectedOutput": "1",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

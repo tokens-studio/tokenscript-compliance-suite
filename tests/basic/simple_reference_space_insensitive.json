@@ -1,0 +1,10 @@
+{
+    "name": "simple reference space insensitive",
+    "input": "{hello }",
+    "expectedOutput": "6",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {
+        "hello": 6
+    }
+}

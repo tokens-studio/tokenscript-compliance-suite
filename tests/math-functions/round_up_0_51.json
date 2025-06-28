@@ -1,0 +1,8 @@
+{
+    "name": "round inline",
+    "input": "round(2.51)",
+    "expectedOutput": "3",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

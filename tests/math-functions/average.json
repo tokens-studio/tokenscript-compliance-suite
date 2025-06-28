@@ -1,0 +1,8 @@
+{
+    "name": "inline min",
+    "input": "average(3,2,3,2)",
+    "expectedOutput": "2.5",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

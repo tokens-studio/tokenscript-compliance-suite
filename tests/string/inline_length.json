@@ -1,0 +1,8 @@
+{
+    "name": "string inline length",
+    "input": "\"hello\".length() - 1",
+    "expectedOutput": "4",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

@@ -1,0 +1,10 @@
+{
+    "name": "variable with unit inline mixed math",
+    "input": "{x} * {x} + {x}rem",
+    "expectedOutput": "6rem",
+    "expectedOutputType": "NumberWithUnit",
+    "inline": true,
+    "context": {
+        "x": 2
+    }
+}

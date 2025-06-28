@@ -1,0 +1,8 @@
+{
+    "name": "decimal number",
+    "input": "123.45",
+    "expectedOutput": "123.45",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

@@ -1,0 +1,8 @@
+{
+    "name": "🦄Emoji as variable name",
+    "input": "variable \ud83c\udf51: Number = 1;\nreturn \ud83c\udf51;",
+    "expectedOutput": "1",
+    "expectedOutputType": "Number",
+    "inline": false,
+    "context": {}
+}

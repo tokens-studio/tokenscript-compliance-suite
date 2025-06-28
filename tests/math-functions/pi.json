@@ -1,0 +1,8 @@
+{
+    "name": "pi",
+    "input": "roundto(pi(), 5)",
+    "expectedOutput": "3.14159",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

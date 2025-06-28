@@ -1,0 +1,8 @@
+{
+    "name": "string inline concat",
+    "input": "\"HELLO\".lower().concat(\" WORLD\".lower())",
+    "expectedOutput": "hello world",
+    "expectedOutputType": "String",
+    "inline": true,
+    "context": {}
+}

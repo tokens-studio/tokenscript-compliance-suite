@@ -1,0 +1,8 @@
+{
+    "name": "abs inline",
+    "input": "abs(-99999999999999)",
+    "expectedOutput": "99999999999999",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

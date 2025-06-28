@@ -1,0 +1,10 @@
+{
+    "name": "🦄Emoji as reference name",
+    "input": "{\ud83d\udd1d}",
+    "expectedOutput": "2",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {
+        "\ud83d\udd1d": 2
+    }
+}
