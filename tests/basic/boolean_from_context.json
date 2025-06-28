@@ -1,0 +1,7 @@
+{
+    "name": "Return Boolean from context",
+    "input": "{x}",
+    "expectedOutput": "true",
+    "expectedOutputType": "Boolean",
+    "context": {"x": true}
+}

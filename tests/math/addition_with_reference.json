@@ -2,7 +2,7 @@
     "name": "test addition with reference",
     "input": "4+{x}",
     "expectedOutput": "7",
-    "exceptedOutputType": "Number",
+    "expectedOutputType": "Number",
     "context": {
        "x": 3
     }

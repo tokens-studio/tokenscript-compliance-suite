@@ -1,0 +1,7 @@
+{
+    "name": "Return Boolean",
+    "input": "variable a: Boolean = true;\nreturn a;",
+    "expectedOutput": "true",
+    "expectedOutputType": "Boolean",
+    "context": {}
+}

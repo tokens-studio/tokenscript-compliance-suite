@@ -2,6 +2,6 @@
     "name": "multiplication and division before addition and subtraction",
     "input": "4 + 2 * 3 - 5 / 5",
     "expectedOutput": "9",
-    "exceptedOutputType": "Number",
+    "expectedOutputType": "Number",
     "context": {}
 }
