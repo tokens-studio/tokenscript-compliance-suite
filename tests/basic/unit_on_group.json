@@ -1,7 +1,7 @@
 {
     "name": "variable with unit inline mixed math",
     "input": "{a} * ({a} + {a})rem",
-    "expectedOutput": "6rem",
+    "expectedOutput": "8rem",
     "expectedOutputType": "NumberWithUnit",
     "inline": true,
     "context": {
