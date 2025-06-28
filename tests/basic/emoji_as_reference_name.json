@@ -3,7 +3,7 @@
     "input": "{\ud83d\udd1d}",
     "expectedOutput": "2",
     "expectedOutputType": "Number",
-    "inline": true,
+    "inline": false,
     "context": {
         "\ud83d\udd1d": 2
     }

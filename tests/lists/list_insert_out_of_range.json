@@ -1,0 +1,8 @@
+{
+    "name": "List insert out of range",
+    "input": "variable x: List = 1, 2, 3;\n    x.insert(5, 4);\n    return x;",
+    "expectedOutput": "Index out of range for insert.",
+    "expectedOutputType": "Error",
+    "inline": false,
+    "context": {}
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Test list insert",
+    "input": "variable x: List = 1, 2, 4;\n    x.insert(2, 3);\n    return x;",
+    "expectedOutput": "1, 2, 3, 4",
+    "expectedOutputType": "List",
+    "inline": false,
+    "context": {}
+}

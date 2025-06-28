@@ -1,0 +1,8 @@
+{
+    "name": "list creation",
+    "input": "variable x: List = 1, 2, 3;\nreturn x;",
+    "expectedOutput": "1, 2, 3",
+    "expectedOutputType": "List",
+    "inline": false,
+    "context": {}
+}

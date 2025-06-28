@@ -1,0 +1,8 @@
+{
+    "name": "list delete item",
+    "input": "variable x: List = 1, 2, 3, 4;\n    x.delete(2);\n    return x;",
+    "expectedOutput": "1, 2, 4",
+    "expectedOutputType": "List",
+    "inline": false,
+    "context": {}
+}

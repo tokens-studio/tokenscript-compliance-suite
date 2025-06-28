@@ -1,0 +1,8 @@
+{
+    "name": "Test list extend",
+    "input": "variable x: List = 1, 2;\n    variable y: List = 3, 4;\n    x.extend(y);\n    return x;",
+    "expectedOutput": "1, 2, 3, 4",
+    "expectedOutputType": "List",
+    "inline": false,
+    "context": {}
+}

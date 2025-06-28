@@ -1,0 +1,8 @@
+{
+    "name": "Test list append",
+    "input": "variable x: List = 1, 2;\n    x.append(3);\n    return x",
+    "expectedOutput": "1, 2, 3",
+    "expectedOutputType": "List",
+    "inline": false,
+    "context": {}
+}

@@ -1,0 +1,8 @@
+{
+    "name": "list length",
+    "input": "variable x: List = 1, 2, 3, 4;\n    variable len: Number = x.length();\n    return len;",
+    "expectedOutput": "4",
+    "expectedOutputType": "Number",
+    "inline": false,
+    "context": {}
+}

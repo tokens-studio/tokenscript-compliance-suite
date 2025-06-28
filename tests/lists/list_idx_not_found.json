@@ -1,0 +1,8 @@
+{
+    "name": "list idx not found",
+    "input": "variable x: List = 1, 2, 3, 4;\n    variable idx: Number = x.index(5);\n    return idx;",
+    "expectedOutput": "-1",
+    "expectedOutputType": "Number",
+    "inline": false,
+    "context": {}
+}

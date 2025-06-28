@@ -1,0 +1,8 @@
+{
+    "name": "Mixed txped list",
+    "input": "variable x: List = 1, \"hello\", true;\n    return x;",
+    "expectedOutput": "1, \"hello\", true",
+    "expectedOutputType": "List",
+    "inline": false,
+    "context": {}
+}

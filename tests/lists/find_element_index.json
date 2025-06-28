@@ -1,0 +1,8 @@
+{
+    "name": "find element index",
+    "input": "variable x: List = 1, 2, 3, 4;\n    variable idx: Number = x.index(3);\n    return idx;",
+    "expectedOutput": "2",
+    "expectedOutputType": "Number",
+    "inline": false,
+    "context": {}
+}

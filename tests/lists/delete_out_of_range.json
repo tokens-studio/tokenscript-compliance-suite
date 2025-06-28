@@ -1,0 +1,8 @@
+{
+    "name": "test delete out of range",
+    "input": "variable x: List = 1, 2, 3;\n    x.delete(5);\n    return x;",
+    "expectedOutput": "out of range",
+    "expectedOutputType": "Error",
+    "inline": false,
+    "context": {}
+}
