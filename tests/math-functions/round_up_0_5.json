@@ -1,0 +1,8 @@
+{
+    "name": "round up on .5 to even number",
+    "input": "round(3.5)",
+    "expectedOutput": "4",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {}
+}

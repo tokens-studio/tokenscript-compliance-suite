@@ -1,6 +1,6 @@
 {
-    "name": "round down on .5 to even number",
-    "input": "round(2.5)",
+    "name": "round inline down",
+    "input": "round(2.49)",
     "expectedOutput": "2",
     "expectedOutputType": "Number",
     "inline": true,
