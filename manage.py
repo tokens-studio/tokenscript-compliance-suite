@@ -33,32 +33,6 @@ def get_user_input_with_editor(initial_content=""):
     return content
 
 
-def convert_value_based_on_type(value, type_hint):
-    """Convert a string value to the appropriate type based on the type hint."""
-    type_hint = type_hint.lower()
-
-    if type_hint == 'number':
-        # Try to convert to int first, then float if that fails
-        try:
-            # If it's a whole number, use int
-            if float(value) == int(float(value)):
-                return int(float(value))
-            return float(value)
-        except ValueError:
-            # Keep as string if conversion fails
-            return value
-    elif type_hint == 'boolean':
-        # Convert "true"/"false" to actual boolean values
-        if value.lower() == 'true':
-            return True
-        elif value.lower() == 'false':
-            return False
-        return value
-    else:
-        # For other types like String, keep as is
-        return value
-
-
 def generate_editor_template(test_data=None):
     """Generate a template for the editor, optionally pre-populated with test data."""
     if test_data is None:
@@ -174,13 +148,6 @@ def parse_editor_content(user_input):
 
             if key == "context":
                 context_json = value
-
-    # Convert expectedOutput to the appropriate type based on expectedOutputType
-    if "expectedOutput" in test_data and "expectedOutputType" in test_data:
-        test_data["expectedOutput"] = convert_value_based_on_type(
-            test_data["expectedOutput"],
-            test_data["expectedOutputType"]
-        )
 
     # Parse context JSON
     try:

@@ -1,7 +1,7 @@
 {
     "name": "simple boolean if condition",
     "input": "variable a_boolean: Boolean = true;\nvariable another_boolean: Boolean = false;\n\nif(a_boolean == true) [\n    return true;\n]\n\nreturn false;",
-    "expectedOutput": true,
-    "expectedOutputType": "Boolean # or String, Boolean, etc.",
+    "expectedOutput": "True",
+    "expectedOutputType": "Boolean",
     "context": {}
 }

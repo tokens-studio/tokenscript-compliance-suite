@@ -2,6 +2,6 @@
     "name": "factoring out negative numbers and fractions",
     "input": "(1 + -3) * 2 + (4/3) + 5",
     "expectedOutput": "2.333333333333333",
-    "exceptedOutputType": "Number",
+    "expectedOutputType": "Number",
     "context": {}
 }
