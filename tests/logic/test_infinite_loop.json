@@ -1,7 +1,7 @@
 {
     "name": "Test infinite loop",
     "input": "variable j: Number = 0;\n    while(true) [\n        j = j + 1;\n    ];\n    return j;",
-    "expectedOutput": "Max iterations exceeded in while loop",
+    "expectedOutput": "Max iterations exceeded in while loop.",
     "expectedOutputType": "Error",
     "inline": false,
     "context": {}

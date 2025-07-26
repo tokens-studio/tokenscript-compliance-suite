@@ -2,7 +2,7 @@
     "name": "Convert RGB to linear RGB",
     "input": "variable rgb: List = {r}, {g}, {b};\n    variable rgb_linear: List = 0, 0, 0;\n    variable gamma: Number = 2.4;\n\n    // Convert RGB to linear RGB\n    variable r: Number = rgb.get(0) / 255;\n    variable g: Number = rgb.get(1) / 255;\n    variable b: Number = rgb.get(2) / 255;\n\n    // Process red channel\n    if(r <= 0.03928) [\n        rgb_linear.update(0, r / 12.92);\n    ] else [\n        rgb_linear.update(0, pow((r + 0.055) / 1.055, gamma));\n    ];\n\n    // Process green channel\n    if(g <= 0.03928) [\n        rgb_linear.update(1, g / 12.92);\n    ] else [\n        rgb_linear.update(1, pow((g + 0.055) / 1.055, gamma));\n    ];\n\n    // Process blue channel\n    if(b <= 0.03928) [\n        rgb_linear.update(2, b / 12.92);\n    ] else [\n        rgb_linear.update(2, pow((b + 0.055) / 1.055, gamma));\n    ];\n\n    return rgb_linear;",
     "expectedOutput": "1.0, 0, 0",
-    "expectedOutputType": "Number",
+    "expectedOutputType": "List",
     "inline": false,
     "context": {
         "r": 255,

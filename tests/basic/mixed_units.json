@@ -1,0 +1,10 @@
+{
+    "name": "mixed units handling inline",
+    "input": "({hello}rem + 9rem) / 2 + 55px",
+    "expectedOutput": "6",
+    "expectedOutputType": "Number",
+    "inline": true,
+    "context": {
+        "hello": 6
+    }
+}

@@ -1,7 +1,7 @@
 {
     "name": "math with mixed float and integer",
     "input": "4 + 2.5 + 3 - 2.5",
-    "expectedOutput": "7",
+    "expectedOutput": "7.0",
     "expectedOutputType": "Number",
     "inline": true,
     "context": {}

@@ -2,7 +2,7 @@
     "name": "hex color variable",
     "input": "variable c: Color = #ff0000;\nreturn c;",
     "expectedOutput": "#ff0000",
-    "expectedOutputType": "Color",
+    "expectedOutputType": "Color.Hex",
     "inline": false,
     "context": {}
 }
