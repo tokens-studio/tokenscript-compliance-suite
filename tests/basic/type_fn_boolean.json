@@ -1,0 +1,9 @@
+{
+    "name": "type function boolean",
+    "input": "return type(true)",
+    "expectedOutput": "boolean",
+    "expectedOutputType": "String",
+    "inline": false,
+    "context": {
+    }
+}

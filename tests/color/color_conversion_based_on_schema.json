@@ -1,0 +1,14 @@
+{
+    "name": "Color conversion rgb to hsl",
+    "input": "variable color: Color = {COLOR};\n return color.to.hsl();",
+    "expectedOutput": "hsl(0, 100, 50.0)",
+    "expectedOutputType": "Color.Hsl",
+    "inline": false,
+    "context": {
+        "COLOR": "#FF0000"
+    },
+    "schemas": [
+        "https://schema.tokenscript.dev.gcp.tokens.studio/api/v1/schema/hsl-color/0/",
+        "https://schema.tokenscript.dev.gcp.tokens.studio/api/v1/schema/srgb-color/0/"
+    ]
+}

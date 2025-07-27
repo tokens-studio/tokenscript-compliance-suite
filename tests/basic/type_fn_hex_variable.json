@@ -1,0 +1,9 @@
+{
+    "name": "type function color hex variable",
+    "input": "variable a_color: Color = #333;return type(a_color)",
+    "expectedOutput": "hex",
+    "expectedOutputType": "String",
+    "inline": false,
+    "context": {
+    }
+}

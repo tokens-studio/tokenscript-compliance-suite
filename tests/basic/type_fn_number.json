@@ -1,0 +1,9 @@
+{
+    "name": "type function number",
+    "input": "return type(2.4);",
+    "expectedOutput": "number",
+    "expectedOutputType": "String",
+    "inline": false,
+    "context": {
+    }
+}

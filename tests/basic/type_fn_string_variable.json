@@ -1,0 +1,9 @@
+{
+    "name": "type function string variable",
+    "input": "variable a_string: String = abc;return type(a_string)",
+    "expectedOutput": "string",
+    "expectedOutputType": "String",
+    "inline": false,
+    "context": {
+    }
+}

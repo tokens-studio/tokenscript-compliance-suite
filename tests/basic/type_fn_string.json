@@ -1,0 +1,9 @@
+{
+    "name": "type function string",
+    "input": "return type(\"abc\")",
+    "expectedOutput": "string",
+    "expectedOutputType": "String",
+    "inline": false,
+    "context": {
+    }
+}
