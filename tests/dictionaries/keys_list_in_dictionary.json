@@ -1,0 +1,8 @@
+{
+    "name": "key list of dictionary",
+    "input": "variable x: Dictionary;\n    x.set(a, 1);\n    x.set(b, 2);\n return x.keys();",
+    "expectedOutput": "a, b",
+    "expectedOutputType": "List",
+    "inline": false,
+    "context": {}
+}

@@ -1,0 +1,9 @@
+{
+    "name": "add dictionary to itself",
+    "input": "variable x: Dictionary;\n    x.set(a, 1);\n    x.set(b, 2); x.set(dict, x); \n return x.get(dict).get(a);",
+    "expectedOutput": 1,
+    "expectedOutputType": "Number",
+    "inline": false,
+    "context": {}
+}
+

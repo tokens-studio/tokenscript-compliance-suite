@@ -1,0 +1,8 @@
+{
+    "name": "clear dictionary",
+    "input": "variable x: Dictionary;\n    x.set(a, 1);\n    x.set(b, 2);  x.clear(); \n return x.length();",
+    "expectedOutput": 0,
+    "expectedOutputType": "Number",
+    "inline": false,
+    "context": {}
+}

@@ -1,0 +1,8 @@
+{
+    "name": "initialize dictionary",
+    "input": "variable x: Dictionary;\n    x.set(\"a\", 1);\n    x.set(\"b\", 2);\n return x.get(a);",
+    "expectedOutput": 1,
+    "expectedOutputType": "Number",
+    "inline": false,
+    "context": {}
+}
