@@ -1,0 +1,8 @@
+{
+    "name": "if…elif…else non-boolean condition",
+    "input": "variable x: Number = 10;\n     if(x == 5) [\n       return false;\n    ] elif (x=10) [ return true;] else [return false;];\n    return false;",
+    "expectedOutput": "If/elif condition must be a boolean",
+    "expectedOutputType": "Error",
+    "inline": false,
+    "context": {}
+}
