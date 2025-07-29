@@ -1,0 +1,8 @@
+{
+    "name": "sum of mixed units",
+    "input": "sum(10px, 10, 1rem)",
+    "expectedOutput": "36px",
+    "expectedOutputType": "NumberWithUnit",
+    "inline": true,
+    "context": {}
+}

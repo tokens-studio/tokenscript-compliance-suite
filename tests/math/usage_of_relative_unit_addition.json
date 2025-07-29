@@ -1,0 +1,8 @@
+{
+    "name": "usage of relative unit",
+    "input": "10rem + 10%",
+    "expectedOutput": "11rem",
+    "expectedOutputType": "NumberWithUnit",
+    "inline": true,
+    "context": {}
+}
