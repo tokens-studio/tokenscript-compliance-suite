@@ -1,0 +1,8 @@
+{
+    "name": "string inline split by character",
+    "input": "\"HELLO WORLD\".spLit(\" \")",
+    "expectedOutput": "HELLO, WORLD",
+    "expectedOutputType": "List",
+    "inline": true,
+    "context": {}
+}
