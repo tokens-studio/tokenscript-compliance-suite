@@ -1,0 +1,8 @@
+{
+    "name": "Null ordering comparison error - greater than or equal",
+    "input": "variable a: Boolean;\nreturn a >= true;",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error", 
+    "inline": false,
+    "context": {}
+}

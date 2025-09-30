@@ -1,0 +1,8 @@
+{
+    "name": "Null as symbol value",
+    "input": "variable a: String;\nreturn a;",
+    "expectedOutput": "null",
+    "expectedOutputType": "String",
+    "inline": false,
+    "context": {}
+}

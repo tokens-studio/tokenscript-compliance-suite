@@ -1,0 +1,114 @@
+[
+  {
+    "name": "null literal expression",
+    "input": "null",
+    "expectedOutput": null,
+    "expectedOutputType": "Null",
+    "inline": true
+  },
+  {
+    "name": "declare String variable without assignment",
+    "input": "variable x: String; return x;",
+    "expectedOutput": null,
+    "expectedOutputType": "String",
+    "inline": false
+  },
+  {
+    "name": "declare Number variable without assignment",
+    "input": "variable x: Number; return x;",
+    "expectedOutput": null,
+    "expectedOutputType": "Number",
+    "inline": false
+  },
+  {
+    "name": "declare Boolean variable without assignment",
+    "input": "variable x: Boolean; return x;",
+    "expectedOutput": null,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "declare NumberWithUnit variable without assignment",
+    "input": "variable x: NumberWithUnit; return x;",
+    "expectedOutput": null,
+    "expectedOutputType": "NumberWithUnit.Px",
+    "inline": false
+  },
+  {
+    "name": "declare Color variable without assignment",
+    "input": "variable x: Color; return x;",
+    "expectedOutput": null,
+    "expectedOutputType": "Color",
+    "inline": false
+  },
+  {
+    "name": "declare Color.Hex variable without assignment",
+    "input": "variable x: Color.Hex; return x;",
+    "expectedOutput": null,
+    "expectedOutputType": "Color.Hex",
+    "inline": false
+  },
+  {
+    "name": "dictionary get returns null for non-existent key",
+    "input": "variable dict: Dictionary; return dict.get(\"nonexistent\");",
+    "expectedOutput": null,
+    "expectedOutputType": "Null",
+    "inline": false
+  },
+  {
+    "name": "null coercion from dictionary to String",
+    "input": "variable dict: Dictionary; variable str: String = dict.get(\"foo\"); return str;",
+    "expectedOutput": null,
+    "expectedOutputType": "String",
+    "inline": false
+  },
+  {
+    "name": "null coercion from dictionary to Number",
+    "input": "variable dict: Dictionary; variable num: Number = dict.get(\"foo\"); return num;",
+    "expectedOutput": null,
+    "expectedOutputType": "Number",
+    "inline": false
+  },
+  {
+    "name": "null coercion from dictionary to Boolean",
+    "input": "variable dict: Dictionary; variable bool: Boolean = dict.get(\"foo\"); return bool;",
+    "expectedOutput": null,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "null coercion from dictionary to NumberWithUnit",
+    "input": "variable dict: Dictionary; variable nwu: NumberWithUnit = dict.get(\"foo\"); return nwu;",
+    "expectedOutput": null,
+    "expectedOutputType": "NumberWithUnit",
+    "inline": false
+  },
+  {
+    "name": "null coercion from dictionary to Color",
+    "input": "variable dict: Dictionary; variable color: Color = dict.get(\"foo\"); return color;",
+    "expectedOutput": null,
+    "expectedOutputType": "Color",
+    "inline": false
+  },
+  {
+    "name": "null coercion from dictionary to Color.Hex",
+    "input": "variable dict: Dictionary; variable hex: Color.Hex = dict.get(\"foo\"); return hex;",
+    "expectedOutput": null,
+    "expectedOutputType": "Color.Hex",
+    "inline": false
+  },
+  {
+    "name": "list and dictionary non-nullable - List has empty array value",
+    "input": "variable list: List; return list;",
+    "expectedOutput": [],
+    "expectedOutputType": "List",
+    "inline": false
+  },
+  {
+    "name": "list and dictionary non-nullable - Dictionary has empty object value",
+    "input": "variable dict: Dictionary; return dict;",
+    "expectedOutput": {},
+    "expectedOutputType": "Dictionary",
+    "inline": false
+  }
+]

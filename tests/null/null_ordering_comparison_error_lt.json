@@ -1,0 +1,8 @@
+{
+    "name": "Null ordering comparison error - less than",
+    "input": "variable a: Number;\nreturn a < 42;",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": false,
+    "context": {}
+}

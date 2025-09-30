@@ -1,0 +1,8 @@
+{
+    "name": "Null coercion to Number",
+    "input": "variable c: Dictionary;\nvariable foo: Number = c.get(\"nonexistent\");\nreturn foo;",
+    "expectedOutput": "null",
+    "expectedOutputType": "Number",
+    "inline": false,
+    "context": {}
+}

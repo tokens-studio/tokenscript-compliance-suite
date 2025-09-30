@@ -1,0 +1,8 @@
+{
+    "name": "Null coercion to NumberWithUnit",
+    "input": "variable c: Dictionary;\nvariable foo: NumberWithUnit = c.get(\"nonexistent\");\nreturn foo;",
+    "expectedOutput": "null",
+    "expectedOutputType": "NumberWithUnit",
+    "inline": false,
+    "context": {}
+}

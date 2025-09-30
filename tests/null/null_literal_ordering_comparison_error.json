@@ -1,0 +1,8 @@
+{
+    "name": "Null literal ordering comparison error",
+    "input": "variable a: String = \"test\";\nreturn a > null;",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": false,
+    "context": {}
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Non-null equality comparison",
+    "input": "variable a: String = \"hello\";\nreturn a == null;",
+    "expectedOutput": "false",
+    "expectedOutputType": "Boolean",
+    "inline": false,
+    "context": {}
+}
