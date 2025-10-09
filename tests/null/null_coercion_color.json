@@ -1,0 +1,8 @@
+{
+    "name": "Null coercion to Color",
+    "input": "variable c: Dictionary;\nvariable foo: Color = c.get(\"nonexistent\");\nreturn foo;",
+    "expectedOutput": "null",
+    "expectedOutputType": "Color",
+    "inline": false,
+    "context": {}
+}

@@ -1,7 +1,7 @@
 {
     "name": "Test unsupported inline op",
     "input": "{a} * {a} + {a} \u00b4 2",
-    "expectedOutput": "Invalid character '\u00b4' at position 27.",
+    "expectedOutput": "Invalid character '\u00b4' at position 16.",
     "expectedOutputType": "Error",
     "inline": true,
     "context": {

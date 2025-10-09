@@ -1,0 +1,8 @@
+{
+    "name": "Null literal value",
+    "input": "return null;",
+    "expectedOutput": "null",
+    "expectedOutputType": "Null",
+    "inline": false,
+    "context": {}
+}

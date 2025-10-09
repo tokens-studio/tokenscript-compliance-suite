@@ -1,0 +1,135 @@
+[
+  {
+    "name": "null literal greater than comparison should error",
+    "input": "null > 5",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": true
+  },
+  {
+    "name": "null literal less than comparison should error",
+    "input": "null < 5",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": true
+  },
+  {
+    "name": "null literal greater than or equal comparison should error",
+    "input": "null >= 5",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": true
+  },
+  {
+    "name": "null literal less than or equal comparison should error",
+    "input": "null <= 5",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": true
+  },
+  {
+    "name": "value greater than null literal should error",
+    "input": "5 > null",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": true
+  },
+  {
+    "name": "value less than null literal should error",
+    "input": "5 < null",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": true
+  },
+  {
+    "name": "value greater than or equal null literal should error",
+    "input": "5 >= null",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": true
+  },
+  {
+    "name": "value less than or equal null literal should error",
+    "input": "5 <= null",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": true
+  },
+  {
+    "name": "null literals comparison greater than should error",
+    "input": "null > null",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": true
+  },
+  {
+    "name": "null literals comparison less than should error",
+    "input": "null < null",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": true
+  },
+  {
+    "name": "null literals comparison greater than or equal should error",
+    "input": "null >= null",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": true
+  },
+  {
+    "name": "null literals comparison less than or equal should error",
+    "input": "null <= null",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": true
+  },
+  {
+    "name": "Number null variable greater than number should error",
+    "input": "variable a: Number; return a > 42;",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": false
+  },
+  {
+    "name": "Number null variable less than number should error",
+    "input": "variable a: Number; return a < 42;",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": false
+  },
+  {
+    "name": "NumberWithUnit null variable greater than unit should error",
+    "input": "variable a: NumberWithUnit; return a > 10px;",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": false
+  },
+  {
+    "name": "NumberWithUnit null variable less than unit should error",
+    "input": "variable a: NumberWithUnit; return a < 10px;",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": false
+  },
+  {
+    "name": "two Number null variables comparison should error",
+    "input": "variable a: Number; variable b: Number; return a < b;",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": false
+  },
+  {
+    "name": "null from dictionary method in ordering comparison should error",
+    "input": "variable dict: Dictionary; variable nullValue: String = dict.get(\"nonexistent\"); return nullValue > \"test\";",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": false
+  },
+  {
+    "name": "ordering comparison with null in if condition should error",
+    "input": "variable a: Number; if (a > 0) [ return \"positive\"; ] else [ return \"not positive\"; ];",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": false
+  }
+]

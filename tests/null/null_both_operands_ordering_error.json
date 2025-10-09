@@ -1,0 +1,8 @@
+{
+    "name": "Null both operands ordering comparison error",
+    "input": "return null > null;",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": false,
+    "context": {}
+}

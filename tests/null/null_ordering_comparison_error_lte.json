@@ -1,0 +1,8 @@
+{
+    "name": "Null ordering comparison error - less than or equal",
+    "input": "variable a: NumberWithUnit;\nreturn a <= 10px;",
+    "expectedOutput": "Cannot perform ordering comparison with null values.",
+    "expectedOutputType": "Error",
+    "inline": false,
+    "context": {}
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Returned null compare against nullable Color symbol",
+    "input": "variable dict: Dictionary;\nvariable retrieved: Color = dict.get(\"nonexistent\");\nreturn retrieved == null;",
+    "expectedOutput": "true",
+    "expectedOutputType": "Boolean",
+    "inline": false,
+    "context": {}
+}

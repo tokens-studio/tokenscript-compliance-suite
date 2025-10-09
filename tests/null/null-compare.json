@@ -1,0 +1,177 @@
+[
+  {
+    "name": "null literal equals null literal",
+    "input": "null == null",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": true
+  },
+  {
+    "name": "null literal not equals null literal",
+    "input": "null != null",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": true
+  },
+  {
+    "name": "String null value equals null literal",
+    "input": "variable x: String; return x == null;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "Number null value equals null literal",
+    "input": "variable x: Number; return x == null;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "Boolean null value equals null literal",
+    "input": "variable x: Boolean; return x == null;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "NumberWithUnit null value equals null literal",
+    "input": "variable x: NumberWithUnit; return x == null;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "Color null value equals null literal",
+    "input": "variable x: Color; return x == null;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "Color.Hex null value equals null literal",
+    "input": "variable x: Color.Hex; return x == null;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "String with value not equals null literal",
+    "input": "variable x: String = \"hello\"; return x == null;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "Number with value not equals null literal",
+    "input": "variable x: Number = 42; return x == null;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "Boolean with value not equals null literal",
+    "input": "variable x: Boolean = true; return x == null;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "NumberWithUnit with value not equals null literal",
+    "input": "variable x: NumberWithUnit = 10px; return x == null;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "Color with value not equals null literal",
+    "input": "variable x: Color = #ff0000; return x == null;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "empty List not equals null literal",
+    "input": "variable x: List; return x == null;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "List with elements not equals null literal",
+    "input": "variable x: List = 1, 2, 3; return x == null;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "empty Dictionary not equals null literal",
+    "input": "variable x: Dictionary; return x == null;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "Dictionary with values not equals null literal",
+    "input": "variable dict: Dictionary; dict.set(\"key\", \"value\"); return dict == null;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "String null value not equals null literal",
+    "input": "variable x: String; return x != null;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "String with value not equals null literal",
+    "input": "variable x: String = \"hello\"; return x != null;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "empty List not equals null literal",
+    "input": "variable x: List; return x != null;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "empty Dictionary not equals null literal",
+    "input": "variable x: Dictionary; return x != null;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "null from dictionary method equals null literal",
+    "input": "variable dict: Dictionary; variable value: String = dict.get(\"nonexistent\"); return value == null;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "multiple null comparisons in expression",
+    "input": "variable a: String; variable b: Number; variable c: List; return (a == null) && (b == null) && (c != null);",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "null comparison in if statement condition true",
+    "input": "variable a: String; if (a == null) [ return \"is null\"; ] else [ return \"not null\"; ];",
+    "expectedOutput": "is null",
+    "expectedOutputType": "String",
+    "inline": false
+  },
+  {
+    "name": "null comparison in if statement condition false",
+    "input": "variable a: String = \"hello\"; if (a == null) [ return \"is null\"; ] else [ return \"not null\"; ];",
+    "expectedOutput": "not null",
+    "expectedOutputType": "String",
+    "inline": false
+  }
+]

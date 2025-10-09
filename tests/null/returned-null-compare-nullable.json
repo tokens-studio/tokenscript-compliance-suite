@@ -1,0 +1,135 @@
+[
+  {
+    "name": "returned null String compared to nullable String variable",
+    "input": "variable dict: Dictionary; variable nullStr: String = dict.get(\"foo\"); variable emptyStr: String; return nullStr == emptyStr;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "returned null Number compared to nullable Number variable",
+    "input": "variable dict: Dictionary; variable nullNum: Number = dict.get(\"foo\"); variable emptyNum: Number; return nullNum == emptyNum;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "returned null Boolean compared to nullable Boolean variable",
+    "input": "variable dict: Dictionary; variable nullBool: Boolean = dict.get(\"foo\"); variable emptyBool: Boolean; return nullBool == emptyBool;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "returned null NumberWithUnit compared to nullable NumberWithUnit variable",
+    "input": "variable dict: Dictionary; variable nullUnit: NumberWithUnit = dict.get(\"foo\"); variable emptyUnit: NumberWithUnit; return nullUnit == emptyUnit;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "returned null Color compared to nullable Color variable",
+    "input": "variable dict: Dictionary; variable nullColor: Color = dict.get(\"foo\"); variable emptyColor: Color; return nullColor == emptyColor;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "returned null Color.Hex compared to nullable Color.Hex variable",
+    "input": "variable dict: Dictionary; variable nullHex: Color.Hex = dict.get(\"foo\"); variable emptyHex: Color.Hex; return nullHex == emptyHex;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "returned null String not equal to nullable String variable",
+    "input": "variable dict: Dictionary; variable nullStr: String = dict.get(\"foo\"); variable emptyStr: String; return nullStr != emptyStr;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "returned null String compared to String with value",
+    "input": "variable dict: Dictionary; variable nullStr: String = dict.get(\"foo\"); variable valueStr: String = \"hello\"; return nullStr == valueStr;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "returned null Number compared to Number with value",
+    "input": "variable dict: Dictionary; variable nullNum: Number = dict.get(\"foo\"); variable valueNum: Number = 42; return nullNum == valueNum;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "returned null Boolean compared to Boolean with value",
+    "input": "variable dict: Dictionary; variable nullBool: Boolean = dict.get(\"foo\"); variable valueBool: Boolean = true; return nullBool == valueBool;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "returned null NumberWithUnit compared to NumberWithUnit with value",
+    "input": "variable dict: Dictionary; variable nullUnit: NumberWithUnit = dict.get(\"foo\"); variable valueUnit: NumberWithUnit = 10px; return nullUnit == valueUnit;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "returned null Color compared to Color with value",
+    "input": "variable dict: Dictionary; variable nullColor: Color = dict.get(\"foo\"); variable valueColor: Color = #ff0000; return nullColor == valueColor;",
+    "expectedOutput": false,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "multiple returned null values compared",
+    "input": "variable dict: Dictionary; variable nullStr1: String = dict.get(\"foo\"); variable nullStr2: String = dict.get(\"bar\"); return nullStr1 == nullStr2;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "returned null in complex comparison expression",
+    "input": "variable dict: Dictionary; variable nullStr: String = dict.get(\"foo\"); variable emptyStr: String; variable valueStr: String = \"test\"; return (nullStr == emptyStr) && (nullStr != valueStr);",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "returned null in if statement condition - true branch",
+    "input": "variable dict: Dictionary; variable nullStr: String = dict.get(\"foo\"); variable emptyStr: String; if (nullStr == emptyStr) [ return \"both null\"; ] else [ return \"not equal\"; ];",
+    "expectedOutput": "both null",
+    "expectedOutputType": "String",
+    "inline": false
+  },
+  {
+    "name": "returned null in if statement condition - false branch",
+    "input": "variable dict: Dictionary; variable nullStr: String = dict.get(\"foo\"); variable valueStr: String = \"hello\"; if (nullStr == valueStr) [ return \"equal\"; ] else [ return \"not equal\"; ];",
+    "expectedOutput": "not equal",
+    "expectedOutputType": "String",
+    "inline": false
+  },
+  {
+    "name": "cross-type null comparison should work with nullable types",
+    "input": "variable dict: Dictionary; variable nullStr: String = dict.get(\"foo\"); variable nullNum: Number = dict.get(\"bar\"); return nullStr == null && nullNum == null;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "returned null from different dictionary methods should be equal",
+    "input": "variable dict1: Dictionary; variable dict2: Dictionary; variable null1: String = dict1.get(\"missing1\"); variable null2: String = dict2.get(\"missing2\"); return null1 == null2;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  },
+  {
+    "name": "chained dictionary method calls with null comparison",
+    "input": "variable dict: Dictionary; variable result: String = dict.get(\"nonexistent1\"); variable result2: String = dict.get(\"nonexistent2\"); return result == result2 && result == null;",
+    "expectedOutput": true,
+    "expectedOutputType": "Boolean",
+    "inline": false
+  }
+]
