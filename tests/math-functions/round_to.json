@@ -1,6 +1,6 @@
 {
     "name": "round to inline",
-    "input": "rounDto(9.33339, 2)",
+    "input": "round_to(9.33339, 2)",
     "expectedOutput": "9.33",
     "expectedOutputType": "Number",
     "inline": true,
