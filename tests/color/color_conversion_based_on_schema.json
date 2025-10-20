@@ -1,7 +1,7 @@
 {
     "name": "Color conversion rgb to hsl",
     "input": "variable color: Color = {COLOR};\n return color.to.hsl();",
-    "expectedOutput": "hsl(0, 100, 50.0)",
+    "expectedOutput": "hsl(0, 100, 50)",
     "expectedOutputType": "Color.Hsl",
     "inline": false,
     "context": {
