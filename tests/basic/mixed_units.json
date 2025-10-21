@@ -1,7 +1,7 @@
 {
     "name": "mixed units handling inline",
     "input": "({hello}rem + 9rem) / 2 + 55px",
-    "expectedOutput": "175.0px",
+    "expectedOutput": "175px",
     "expectedOutputType": "NumberWithUnit",
     "inline": true,
     "context": {
