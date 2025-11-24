@@ -1,0 +1,8 @@
+{
+    "name": "dictionary value copy semantics",
+    "input": "variable a: Number = 1;\nvariable x: Dictionary;\nx.set('a', a);\na = 2;\nreturn x.get('a');",
+    "expectedOutput": 1,
+    "expectedOutputType": "Number",
+    "inline": false,
+    "context": {}
+}
