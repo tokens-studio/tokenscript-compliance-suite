@@ -1,0 +1,7 @@
+{
+    "name": "equality between incompatible units should error",
+    "input": "12rem == 12px",
+    "expectedOutput": "Cannot compare NumberWithUnit of different units: rem and px",
+    "expectedOutputType": "Error",
+    "inline": true
+}
