@@ -1,0 +1,8 @@
+{
+    "name": "explicit string does not evaluate arithmetic",
+    "input": "\"1 + 1\"",
+    "expectedOutput": "1 + 1",
+    "expectedOutputType": "String",
+    "inline": true,
+    "context": {}
+}

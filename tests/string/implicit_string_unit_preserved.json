@@ -1,0 +1,8 @@
+{
+    "name": "implicit string unit preserved without space",
+    "input": "10rem",
+    "expectedOutput": "10rem",
+    "expectedOutputType": "NumberWithUnit",
+    "inline": true,
+    "context": {}
+}

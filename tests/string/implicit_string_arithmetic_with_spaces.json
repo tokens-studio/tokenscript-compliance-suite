@@ -1,0 +1,8 @@
+{
+    "name": "implicit string arithmetic with spaces",
+    "input": "1 + 1 unknown",
+    "expectedOutput": "2 unknown",
+    "expectedOutputType": "ImplicitList",
+    "inline": true,
+    "context": {}
+}

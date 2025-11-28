@@ -1,0 +1,8 @@
+{
+    "name": "implicit string simple",
+    "input": "hello",
+    "expectedOutput": "hello",
+    "expectedOutputType": "String",
+    "inline": true,
+    "context": {}
+}

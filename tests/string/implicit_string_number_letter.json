@@ -1,0 +1,8 @@
+{
+    "name": "implicit string number followed by letter",
+    "input": "5test",
+    "expectedOutput": "5 test",
+    "expectedOutputType": "ImplicitList",
+    "inline": true,
+    "context": {}
+}

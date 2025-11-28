@@ -1,0 +1,8 @@
+{
+    "name": "implicit string 3D becomes 3 D",
+    "input": "3D Font",
+    "expectedOutput": "3 D Font",
+    "expectedOutputType": "ImplicitList",
+    "inline": true,
+    "context": {}
+}

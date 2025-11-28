@@ -1,0 +1,8 @@
+{
+    "name": "explicit string preserves 3D Font without space",
+    "input": "\"3D Font\"",
+    "expectedOutput": "3D Font",
+    "expectedOutputType": "String",
+    "inline": true,
+    "context": {}
+}

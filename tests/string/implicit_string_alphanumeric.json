@@ -1,0 +1,8 @@
+{
+    "name": "implicit string alphanumeric identifier",
+    "input": "test123",
+    "expectedOutput": "test123",
+    "expectedOutputType": "String",
+    "inline": true,
+    "context": {}
+}

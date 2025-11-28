@@ -1,0 +1,8 @@
+{
+    "name": "implicit string with underscore",
+    "input": "my_variable",
+    "expectedOutput": "my_variable",
+    "expectedOutputType": "String",
+    "inline": true,
+    "context": {}
+}

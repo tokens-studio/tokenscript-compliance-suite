@@ -1,0 +1,8 @@
+{
+    "name": "implicit string complex arithmetic with non-unit",
+    "input": "(1 + 2) * 3foo",
+    "expectedOutput": "9 foo",
+    "expectedOutputType": "ImplicitList",
+    "inline": true,
+    "context": {}
+}

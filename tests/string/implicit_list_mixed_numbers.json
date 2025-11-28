@@ -1,0 +1,8 @@
+{
+    "name": "implicit list with mixed number types",
+    "input": "10 20 30",
+    "expectedOutput": "10 20 30",
+    "expectedOutputType": "ImplicitList",
+    "inline": true,
+    "context": {}
+}

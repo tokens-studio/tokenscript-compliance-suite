@@ -1,0 +1,8 @@
+{
+    "name": "explicit string preserves 1unknown without space",
+    "input": "\"1unknown\"",
+    "expectedOutput": "1unknown",
+    "expectedOutputType": "String",
+    "inline": true,
+    "context": {}
+}

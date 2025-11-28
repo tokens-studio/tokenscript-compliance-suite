@@ -1,0 +1,8 @@
+{
+    "name": "implicit list with multiple unit values",
+    "input": "10px 20px 30px 40px",
+    "expectedOutput": "10px 20px 30px 40px",
+    "expectedOutputType": "ImplicitList",
+    "inline": true,
+    "context": {}
+}

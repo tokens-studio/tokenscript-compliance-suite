@@ -1,0 +1,8 @@
+{
+    "name": "implicit list CSS-like value",
+    "input": "1px solid black",
+    "expectedOutput": "1px solid black",
+    "expectedOutputType": "ImplicitList",
+    "inline": true,
+    "context": {}
+}

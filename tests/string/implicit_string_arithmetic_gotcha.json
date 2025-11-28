@@ -1,0 +1,8 @@
+{
+    "name": "implicit string arithmetic gotcha - evaluates arithmetic first",
+    "input": "1 + 1unknown",
+    "expectedOutput": "2 unknown",
+    "expectedOutputType": "ImplicitList",
+    "inline": true,
+    "context": {}
+}

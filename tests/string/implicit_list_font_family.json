@@ -1,0 +1,8 @@
+{
+    "name": "implicit list font family",
+    "input": "Arial Helvetica sans-serif",
+    "expectedOutput": "Arial Helvetica sans-serif",
+    "expectedOutputType": "ImplicitList",
+    "inline": true,
+    "context": {}
+}

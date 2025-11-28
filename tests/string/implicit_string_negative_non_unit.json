@@ -1,0 +1,8 @@
+{
+    "name": "implicit string negative number with non-unit",
+    "input": "-1unknown",
+    "expectedOutput": "-1 unknown",
+    "expectedOutputType": "ImplicitList",
+    "inline": true,
+    "context": {}
+}

@@ -1,0 +1,8 @@
+{
+    "name": "implicit string decimal number with non-unit",
+    "input": "1.5unknown",
+    "expectedOutput": "1.5 unknown",
+    "expectedOutputType": "ImplicitList",
+    "inline": true,
+    "context": {}
+}
