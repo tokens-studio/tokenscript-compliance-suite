@@ -1,0 +1,8 @@
+{
+    "name": "sin with no arguments",
+    "input": "return sin();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

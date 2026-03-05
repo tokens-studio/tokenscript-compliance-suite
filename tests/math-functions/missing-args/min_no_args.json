@@ -1,0 +1,8 @@
+{
+    "name": "min with no arguments",
+    "input": "return min();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_REQUIRES_MIN_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

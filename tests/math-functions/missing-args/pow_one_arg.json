@@ -1,0 +1,8 @@
+{
+    "name": "pow with only one argument",
+    "input": "return pow(2);",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

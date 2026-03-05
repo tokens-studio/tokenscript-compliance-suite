@@ -1,0 +1,8 @@
+{
+    "name": "cos with no arguments",
+    "input": "return cos();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

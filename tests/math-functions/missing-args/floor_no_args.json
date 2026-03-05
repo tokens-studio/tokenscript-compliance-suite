@@ -1,0 +1,8 @@
+{
+    "name": "floor with no arguments",
+    "input": "return floor();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

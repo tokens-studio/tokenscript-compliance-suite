@@ -1,0 +1,8 @@
+{
+    "name": "mod with only one argument",
+    "input": "return mod(5);",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

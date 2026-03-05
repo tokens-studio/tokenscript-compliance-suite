@@ -1,0 +1,8 @@
+{
+    "name": "round with no arguments",
+    "input": "return round();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

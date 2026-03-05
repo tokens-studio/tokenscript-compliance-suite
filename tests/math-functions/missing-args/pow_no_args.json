@@ -1,0 +1,8 @@
+{
+    "name": "pow with no arguments",
+    "input": "return pow();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

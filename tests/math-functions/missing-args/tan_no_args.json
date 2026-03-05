@@ -1,0 +1,8 @@
+{
+    "name": "tan with no arguments",
+    "input": "return tan();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

@@ -1,0 +1,8 @@
+{
+    "name": "sqrt with no arguments",
+    "input": "return sqrt();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

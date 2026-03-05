@@ -1,0 +1,8 @@
+{
+    "name": "max with no arguments",
+    "input": "return max();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_REQUIRES_MIN_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

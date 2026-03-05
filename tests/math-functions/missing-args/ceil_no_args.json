@@ -1,0 +1,8 @@
+{
+    "name": "ceil with no arguments",
+    "input": "return ceil();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

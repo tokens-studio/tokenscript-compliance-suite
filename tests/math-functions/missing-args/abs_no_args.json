@@ -1,0 +1,8 @@
+{
+    "name": "abs with no arguments",
+    "input": "return abs();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}
