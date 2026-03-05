@@ -1,0 +1,8 @@
+{
+    "name": "log1p with no arguments",
+    "input": "return log1p();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

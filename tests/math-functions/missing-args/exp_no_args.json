@@ -1,0 +1,8 @@
+{
+    "name": "exp with no arguments",
+    "input": "return exp();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

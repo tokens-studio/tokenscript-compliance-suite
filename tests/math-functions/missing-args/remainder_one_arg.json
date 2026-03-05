@@ -1,0 +1,8 @@
+{
+    "name": "remainder with only one argument",
+    "input": "return remainder(5);",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

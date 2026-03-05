@@ -1,0 +1,8 @@
+{
+    "name": "trunc with no arguments",
+    "input": "return trunc();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

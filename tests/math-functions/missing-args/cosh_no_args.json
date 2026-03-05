@@ -1,0 +1,8 @@
+{
+    "name": "cosh with no arguments",
+    "input": "return cosh();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

@@ -1,0 +1,8 @@
+{
+    "name": "ln with no arguments",
+    "input": "return ln();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

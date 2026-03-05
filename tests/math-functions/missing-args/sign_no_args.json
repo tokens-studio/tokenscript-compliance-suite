@@ -1,0 +1,8 @@
+{
+    "name": "sign with no arguments",
+    "input": "return sign();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

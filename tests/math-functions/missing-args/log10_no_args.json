@@ -1,0 +1,8 @@
+{
+    "name": "log10 with no arguments",
+    "input": "return log10();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

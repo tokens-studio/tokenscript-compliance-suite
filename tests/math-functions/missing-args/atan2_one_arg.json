@@ -1,0 +1,8 @@
+{
+    "name": "atan2 with only one argument",
+    "input": "return atan2(1);",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

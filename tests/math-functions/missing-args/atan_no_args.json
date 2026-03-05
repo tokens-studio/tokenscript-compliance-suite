@@ -1,0 +1,8 @@
+{
+    "name": "atan with no arguments",
+    "input": "return atan();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}

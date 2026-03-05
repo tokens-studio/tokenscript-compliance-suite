@@ -1,0 +1,8 @@
+{
+    "name": "cbrt with no arguments",
+    "input": "return cbrt();",
+    "expectedOutputType": "Error",
+    "expectedErrorCode": "FN_EXPECTS_NUMBER_ARGUMENTS",
+    "inline": false,
+    "context": {}
+}
